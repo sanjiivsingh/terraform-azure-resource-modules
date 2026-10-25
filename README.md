@@ -1,6 +1,14 @@
-# Azure Generic Terraform Modules
+# Terraform Azure Resource Modules
 
-A collection of reusable, production-ready Terraform modules for deploying Azure infrastructure following Infrastructure as Code (IaC) best practices.
+<p align="left">
+  <img src="https://img.shields.io/badge/IaC-Terraform_1.9+-844FBA?style=flat-square&logo=terraform&logoColor=white" alt="Terraform" />
+  <img src="https://img.shields.io/badge/Cloud-Microsoft_Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Azure" />
+  <img src="https://img.shields.io/badge/Modules-11+_Child_Modules-success?style=flat-square" alt="Modules" />
+  <img src="https://img.shields.io/badge/CI-GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="CI" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="License" />
+</p>
+
+A production-grade collection of reusable, scalable Terraform child modules for deploying Azure infrastructure following HashiCorp Infrastructure as Code (IaC) and Azure Landing Zone best practices.
 
 The objective of this repository is to provide modular, configurable, and reusable Azure resources that can be consumed across multiple environments such as Development, Test, UAT, and Production.
 
