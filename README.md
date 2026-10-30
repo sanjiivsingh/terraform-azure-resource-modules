@@ -1,8 +1,12 @@
 # Azure Generic Terraform Modules
 
-A collection of reusable, production-ready Terraform modules for deploying Azure infrastructure following Infrastructure as Code (IaC) best practices.
+[![Terraform 1.9+](https://img.shields.io/badge/Terraform-1.9+-844FBA?style=for-the-badge&logo=terraform&logoColor=white)](https://www.terraform.io/)
+[![Azure Provider v4+](https://img.shields.io/badge/AzureRM-v4.0+-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://registry.terraform.io/providers/hashicorp/azurerm/latest)
+[![CI/CD Validation](https://github.com/sanjiivsingh/terraform-azure-resource-modules/actions/workflows/CI.yaml/badge.svg)](https://github.com/sanjiivsingh/terraform-azure-resource-modules/actions/workflows/CI.yaml)
+[![Status: Statically Validated](https://img.shields.io/badge/Status-Child_Modules_(Statically_Validated)-10B981?style=for-the-badge)](https://github.com/sanjiivsingh/terraform-azure-resource-modules)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-The objective of this repository is to provide modular, configurable, and reusable Azure resources that can be consumed across multiple environments such as Development, Test, UAT, and Production.
+A collection of 11 reusable, modular Terraform child modules for deploying Azure infrastructure following Infrastructure as Code (IaC) best practices. Detailed verification logs are provided in [docs/EVIDENCE.md](docs/EVIDENCE.md) and architectural standards in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
 ---
 
