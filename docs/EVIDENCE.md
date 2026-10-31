@@ -26,3 +26,4 @@ Validating modules/azurerm_virtual_network...     Success! The configuration is 
 * Fixed invalid `actions/checkout@v6` action reference (pinned to `@v4`).
 * Removed live Azure credential prerequisites for PR syntax validation and static linting.
 * Enforced automated `terraform fmt -check`, `tflint`, and individual module `terraform validate` in GitHub Actions.
+
